@@ -1,0 +1,34 @@
+{
+  "name": "sib5a",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@prisma/client": "^7.10.1",
+    "esbuild": "^0.28.2",
+    "express": "^5.3.0",
+    "swagger-jsdoc": "^6.3.0",
+    "swagger-ui-express": "^5.0.1",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "devDependencies": {
+    "prisma": "^8.0.0-rc.33"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "prisma skills sync || exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vivianjssica11/SIB5A.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/vivianjssica11/SIB5A/issues"
+  },
+  "homepage": "https://github.com/vivianjssica11/SIB5A#readme"
+}

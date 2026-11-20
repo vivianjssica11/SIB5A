@@ -46,12 +46,12 @@ class Mario {
     this.currentForm = "mario";
   }
 
-  // METHOD
+  // METHOD 1
   collectItem(item: PowerUp) {
     return item.applyEffect(this);
   }
 
-  // METHOD
+  // METHOD 2
   takeDamage() {
     if (this.invincible) {
       return "Mario kebal! Serangan tidak berpengaruh.";
@@ -62,19 +62,19 @@ class Mario {
     return "Mario terkena serangan! HP berkurang 1.";
   }
 
-  // METHOD
+  // METHOD 3
   moveRight() {
     this.positionX += this.speed;
     return `Mario bergerak ke kanan: ${this.positionX}`;
   }
 
-  // METHOD
+  // METHOD 4
   moveLeft() {
     this.positionX -= this.speed;
     return `Mario bergerak ke kiri: ${this.positionX}`;
   }
 
-  // METHOD
+  // METHOD 5
   shootFireball() {
     if (this.currentForm === "fire mario") {
       return "Mario menembakkan bola api!";
@@ -83,7 +83,7 @@ class Mario {
     return "Mario belum memiliki kekuatan bola api.";
   }
 
-  // METHOD
+  // METHOD 6
   getStatus() {
   return `
     HP          : ${this.hp}
